@@ -1,0 +1,1866 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: main;
+    src: url("fonts/BebasNeue\ Light.otf")
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+input{
+font-size: 15px;
+}
+select:focus {
+     outline: none;
+}
+select {
+     -webkit-appearance: none;
+}
+  
+
+#input2{
+
+margin-top: -2px;
+}
+#close{
+  
+    width: 90%;
+   
+    text-align: right;
+}
+   #close-btn-form{
+        height: 25px;
+        position: relative;
+       
+    }
+
+body{
+    
+background:#C6CCCC ;
+font-family: sans-serif;
+margin:0%;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+     overflow-x: hidden;
+     color:#373735;
+}
+.cap{
+    font-family: 'Bebas Neue', sans-serif;
+ font-size: 40px;
+
+
+}
+
+
+#responsive-back{
+    padding-top: 5%;
+overflow: hidden;
+margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-container{
+    width:100% ;
+    background:#C6CCCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-top: 20px;
+
+   
+   
+  
+}
+#responsive-back{
+    width: 100%;
+   
+}
+#menu{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-li{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+ font-weight: 600;
+   font-size: 14px;
+    list-style-type: none;
+   cursor: pointer;
+    text-transform: uppercase;
+}
+.menu-li:first-child{
+
+width: 30%;
+}
+
+#mini-li{
+    width:22%
+}
+.menu-li li {
+ margin: 2%;
+}
+
+
+#menu p{
+     font-family: 'Bebas Neue', sans-serif;
+     font-size: 24px;
+     padding-left: 2%;
+    width: auto;
+ 
+}
+
+
+#logo-m{
+    height: 90px;
+    margin-left:5%;
+}
+.red{   
+    color:#B20002;
+    margin-right: 5px;
+}
+#big-caption{
+color:black;
+font-size:65px ;
+margin-top: 2%;
+z-index: 10;
+
+font-family: 'Bebas Neue', sans-serif;
+}
+#big-background{
+ height: 300px;
+ position: relative;
+margin-top: -70px;
+
+}
+.contacts-on-gmail button:hover{
+background:#760202;
+}
+.contacts-on-gmail button:active{
+background:#ff0000;
+}
+
+
+
+.contacts-on-gmail{
+width: 80%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: white;
+padding:10px 20px 10px;
+border-radius: 20px;
+height: 120px;
+box-shadow: 2px 2px 50px grey;
+z-index: 10;
+margin: 0%;
+position:relative;
+transition: 2s;
+
+}
+
+#one-mail{
+    left:0%;
+     margin-top: 0px;
+}
+#two-mail{
+    margin-top: -140px;
+ transition: 1s;
+
+
+  transform: translate(-600%);  
+
+}
+@media  screen and (max-width: 600px) {
+    #one-mail{
+    left:0%;
+     margin-top:0px;
+}
+#two-mail{
+    margin-top: -540px;
+ transition: 1s;
+ position: relative;
+
+
+ 
+
+}
+}
+#one-mail-2{
+    left:0%;
+}
+#two-mail-2{
+    position: static;
+    margin-top: -140px;
+ transition: 1s;
+  transform: translate(-500%);  
+
+}
+
+.display-second{
+
+    transition: 2s;
+    animation-duration: 2s;
+     transform: translate(-100%);
+   
+}
+
+
+
+#cap-for-inp{
+  color:#B20002;
+font-size:40px ;
+width: 280px;
+z-index: 10;
+font-family: 'Bebas Neue', sans-serif;
+line-height: 37px;
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+}
+
+#cap-for-inp span{
+    font-size:22px;
+    color:grey;
+}
+#inputs-block{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+     padding: 3px;
+    margin-right: 30px;
+}
+.trans-inp{
+ 
+ 
+    margin: 0%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.inp-block-regist{
+
+  margin: 2%;
+       background:#C6CCCC;
+    padding: 7px 10px;
+     border-radius: 10px;
+}
+.inp-block-regist p{
+ margin-top: -0px;
+ color:grey;
+ font-size: 12px;
+}
+.inp{ 
+   margin-top: -7px;
+
+   width: 100%;
+    position: relative;
+    background: transparent;
+    border: none;
+    margin-left: -2px;
+}
+.inp:active{
+    border: none;
+}
+.inp::placeholder{
+font-size: 14px;
+color:	#737373;
+font-weight: 600;
+
+}
+
+
+.contacts-on-gmail button{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color:white;
+      background:#B20002;
+      border:none;
+    
+}
+
+#second-container{
+    background: #E3E5E4;
+    width: 100%;
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -70px;
+    padding-bottom: 10%;
+    z-index: 9;
+}
+
+#block-width{
+ display: flex;
+ justify-content: space-between;
+ width: 70%;
+  
+margin-top: 10%;
+  
+
+height: 100%;
+  align-items: center;
+
+margin-top: 140px;
+}
+
+ 
+
+#f-block .cap{
+    width: 100%;
+text-align: center;
+    margin-top: 4px;
+    padding-top: 5%;
+     padding-bottom: 5%;
+
+}
+#f-block{
+ width: 40%;
+display:flex ;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+
+}
+#s-block{
+    width: 50%;
+    display: flex;
+   margin-top: 50px;
+
+  flex-direction: column;
+
+}
+#video-block{
+width:350px;
+margin-top: -30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#block-width video{
+height: 120px;
+width: 200px;
+border-radius: 10px;
+
+}
+#video-block p{
+width: 130px;
+font-size: 13px;
+}
+#video-block p span{
+    font-weight: 600;
+}
+#f-block img{
+    height: 200px;
+margin-left: 0px;
+}
+
+#s-block p{
+    font-size: 14px;
+    width: 100%;
+    
+    line-height: 20px;
+}
+
+
+#big-text{
+font-size: 25px;
+  font-family: 'Bebas Neue', sans-serif;
+  line-height: 30px;
+ width: 90%;
+ border-left: 5px solid #B20002;
+ padding-left: 5%;
+ 
+}
+#big-text span{
+    font-weight: 700;
+}
+
+
+#third-container{
+width: 100%;;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+position: relative;
+
+
+}
+#t-block-width{
+    width: 80%;
+ margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#about-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+height: auto;
+
+position: relative;
+}
+.about{
+background: white;
+width: 17%;
+
+text-align: center;
+margin: 0.5%;
+padding: 2%;
+
+      display: flex;
+   align-items: center;
+      flex-direction: column;
+      text-align: center;
+ border-radius: 15px;    
+}
+.about p{
+    align-items: center;
+}
+.cap-about{
+    font-size:24px;
+    font-family: 'Bebas Neue', sans-serif;
+    width:120px;
+}
+
+
+
+
+
+
+.just-p{
+ font-size: 14px;
+    width: 170px;
+   margin-top: -10px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+  
+}
+
+
+#button{
+    background: #B20002;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    color: white;
+   border: 7px solid white;
+ display: flex;
+   align-items: center;
+      flex-direction: column;
+      text-align: center;
+      position: relative;
+      top:50px;
+      
+  
+}
+
+#button p{
+  
+        font-family: main; 
+width: 60%;
+     font-size: 17px;
+     margin-top: 10px;
+     line-height: 17px;
+}
+#button img{
+    color:white;
+    height: 13px;
+    margin-top: 15px;
+}
+
+.icon-car{
+width: 200px;
+    border-radius: 20px;
+}
+
+#faq-block{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+#trans-bl{
+    display: flex;
+  
+    width: 100%;
+}
+
+.wrap-block{
+   width: 50%;
+   margin: 1%;
+}
+.down-icon img{
+    height: 20px;
+}
+.down-icon {
+    background: #C6CCCC;
+    padding: 2%;
+    border-radius: 100%;
+}
+.display-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       font-family: 'Bebas Neue', sans-serif;
+       font-size: 25px;
+}
+.input-down{
+
+    padding: 3px 20px 0px;
+    width: 90%;
+    margin: 3%;
+   
+    text-align: left;
+ background: white;
+ border-radius: 10px;
+}
+
+.t-none{
+        transition: 1s;
+  font-size: 14px;
+line-height: 21px;
+padding-bottom: 10%;
+display:none ;
+}
+#fourth-container{
+    margin-top: 70px;
+    width:100%;
+ background: #E3E5E4;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+
+}
+
+
+#fourth-block{
+     margin-top: 50px;
+      width: 80%;
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-cap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+
+#header-cap .cap{
+    width: 150px;
+    padding-right: 5%;
+}
+#rating{
+    width: 70%;
+   
+    padding-left:5%;
+    height: 160px;
+    margin-top: 40px;
+    border-left: 7px solid #B20002;
+
+}
+#full-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+background: #E3E5E4;
+width: 200px;
+height: 30px;
+}
+#full-review img{
+    height: 12px;
+}
+#full-review span{
+   
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#big-p-full{
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;             
+}
+#full-review p:last-child{
+    font-size: 12px;
+}
+#rating-cap{
+    font-weight: 600;
+}
+#logo-reviews{
+    display: flex;
+    justify-content: left;
+    height: 60px;
+    margin-top: 10px;
+    border-top: 1px solid grey;
+     padding-right:5%;
+     
+}
+
+#logo-reviews span{
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    margin: 4%;
+    margin-left: 0%;
+  width:100px;
+  font-size: 15px;
+}
+#logo-reviews span img{
+    height: 25px;
+}
+
+.star{
+    height: 10px;
+    margin-top: -10px;
+}
+#reviews-cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+.google-rev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    text-align: left;
+    border-radius: 15px;
+    background: white;
+    width: 150px;
+    padding: 3% 2% 5%;
+    margin: 2%;
+    position: relative;
+    
+    }
+
+.head-rev{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+    width:100%;
+}
+.head-rev p:first-child{
+    font-size: 14px;
+}
+
+.head-rev p:last-child{
+ 
+}
+
+.person{
+
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+    border-radius: 100%;
+    margin-right: 5%;
+
+}
+
+#fiveth-container{
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F1F3F2;
+    margin-top: 0px;
+    padding-bottom: 140px;
+}
+
+#fiveth-cont{
+    width: 80%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 50px;
+}
+video source{
+
+}
+
+.header-price img{
+    height: 140px;
+    margin-top: -30px;
+}
+
+.price-block{
+   display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+   position: relative;
+    width: 40%;
+    
+   
+}
+.header-price{
+background: white;
+z-index: 10;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border-radius: 100%/50%;
+height: 200px;
+width: 100%;
+border: 15px solid #F1F3F2;
+
+
+}
+
+.price-main{
+height: 130px;
+width: 110px;
+display: flex;
+padding: 6%;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 100%;
+background: white;
+border:7px solid #F1F3F2;
+}
+
+
+.across{
+ font-family: 'Bebas Neue', sans-serif;  
+ font-size: 25px;   
+ color: grey; 
+ font-family: main;
+ font-weight: 500;
+ opacity: 0.7; 
+ text-decoration:line-through;
+}
+
+
+
+
+
+.big-money{
+ font-family: 'Bebas Neue', sans-serif;   
+  font-size: 50px; 
+ 
+}
+.price-main p{
+    margin: 0%;
+}
+.mini-text{
+    font-size: 14px;
+}
+.main-text-price{
+    background: #f9fbfa;
+    width: 98%;
+    border-radius: 15px;
+   padding: 200px 1% 20px;
+    margin-top: -80px;
+ 
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+
+.main-text-price p:first-child{
+font-size: 15px;
+font-weight: 700;
+margin-top: -50px;
+text-transform: uppercase;
+}
+
+.about-price-mini{
+font-size: 14px;
+opacity: 0.7;
+margin-top: 0px;
+width: 80%;
+
+}
+.button-price{
+     background: #B20002;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    color: white;
+  
+  margin-top: 10px;
+ display: flex;
+   align-items: center;
+      flex-direction: column;
+      text-align: center;
+     
+    
+      
+}
+
+.button-price p{
+ font-family: main; 
+ width: 50%;
+     font-size: 15px;
+     margin-top: 10px;
+     line-height: 17px;
+     
+     
+         }
+
+.button-price img{
+    color:white;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.cap-inside-text-price{
+    width: 80%;
+}
+.cap-price-t{
+    font-weight: 600;
+}
+#footer{
+    background: #2a2927;
+    width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  height: auto;
+  
+}
+#footer img{
+    height: 200px;
+ margin-left: 90px;
+}
+
+#footer-inside{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   height: auto;
+   margin-top: 40px;
+   padding-bottom: 40px;
+     
+}
+.cap-foot{
+    color: white;
+     font-family: 'Bebas Neue', sans-serif;  
+     font-size: 19px;
+    position: relative;
+
+margin-top: 40px;
+    
+}
+
+#footer-inside div{
+
+width: 50%;
+margin-left: 40px;
+
+ padding: 1%;
+  display: flex;
+ flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    list-style-type: none;
+     height: 200px;
+}
+
+#footer-inside li{
+font-size: 11px;
+width: 100%;
+margin: 3%;
+margin-left:0px;
+line-height: 19px;
+color:#888786;
+
+}
+
+
+#footer-inside div ul{
+ 
+    height: 200px;
+    padding: 0%;
+    margin-top: -10px;
+    list-style-type:none ;
+    text-align: left;
+}
+#footer-inside span img{
+height: 25px;
+margin: 2%;
+
+
+}
+
+#footer-inside span{
+margin-top: -10px;
+
+width: 50%;
+display: flex;
+justify-content: space-between;
+}
+
+#logo-reviews span:nth-child(4){
+
+    width: 130px;
+}
+
+#footer-mobily{
+    display: none;
+}
+
+#menu-mobily{
+    display: none;
+}
+
+
+
+@media screen and (max-width:1200px){
+
+#t-block-width{
+   width: 87%;
+  
+  
+}
+
+
+ body{
+   
+ }
+ #responsive-back{
+padding-top: 5%;
+overflow: hidden;
+margin-top: -50px;
+
+ }
+ #block-width{
+    width: 70%;
+ }
+
+   #t-block-width{
+width: 85%;
+   }
+   #trans-bl{
+    width: 100%;
+    
+   }
+   .wrap-block{
+   
+    margin: 0%;
+    width: 50%;
+   
+   }
+   .input-down{
+   padding: 0% 5% 0%;
+   margin: 2%;
+   width: 87%;
+   }   
+   .icon-car{
+    width: 90%;
+    
+   }
+   .cap-about{
+    
+   }
+   .just-p{
+   
+   }
+   #about-block{
+
+   }
+   .about{
+    width: 30%;
+    padding: 0%;
+   }
+   #fourth-block{
+    width: 85%;
+   }
+   #logo-reviews{
+ 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0%;
+   }
+    #logo-reviews span{
+   
+
+    }
+    #fiveth-cont{
+        width: 85%;
+        
+    }
+    #footer-inside{
+     width: 85%;
+  
+
+    }
+    #footer-inside div{
+        width: 100%;
+        margin-left: 70px;
+
+
+    }
+    #menu{
+        width: 85%;
+    }
+    #footer img{
+    height: 200px;
+ margin-left: 0px;
+}
+}
+
+
+
+
+@media screen and (max-width:1000px){
+#menu li{
+    font-size: 12px;
+}
+
+#menu{
+    width: 97%;
+}
+
+
+
+    #footer{
+        display: none;
+    }
+#footer li{
+    display: none;
+}
+.cap-foot{
+    display: none;
+}
+#footer-mobily{
+   
+    background: #2a2927;
+    width: 100%;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  height: auto;
+  
+}
+#footer-inside-mobily{
+display: flex;
+justify-content: space-between;
+width: 70%;
+align-items: center;
+
+}
+#footer-mobily span img{
+    height: 40px;
+
+}
+#footer-mobily span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+  
+}
+#logo-mobily{
+    height: 200px;
+}
+.contacts-on-gmail {
+    width: 90%;
+}
+.contacts-on-gmail button{
+    width: 110px;
+    height: 110px;
+}
+#fiveth-cont{
+    width: 100%;
+}
+.header-price{
+    border-left: none;
+    border-right: none;
+}
+#fourth-block{
+    width: 100%;
+}
+#block-width{
+    width: 90%;
+
+}
+#video-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+   
+ 
+}
+#video-block p{
+    text-align: center;
+}
+#t-block-width{
+   width: 95%;
+  
+  
+}
+
+ #video-block{
+    width: 100%;
+    display: flex;
+        flex-direction: column;
+  
+
+
+ }
+}
+#burger-menu{
+height: 5px;
+display: none;
+}
+#video-block-mobily{
+display: none;
+}
+
+
+
+@media screen and (max-width: 708px)
+{
+
+
+ 
+    #close-btn{
+        height: 25px;
+        position: relative;
+        right: -40%;
+        top:10px;
+    }
+#menu-mobily{
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+align-items: center;
+transition: 1s;
+    position: fixed;
+    background: white ;
+    width: 50%;
+    top:0%;
+    left:-100%;
+    height: 100%;
+   font-weight: 600;
+    z-index: 11;
+    list-style-type: none;
+   overflow: hidden;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+#menu-mobily span{
+    width: 70%;
+   margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#menu-mobily span img{
+    height: 30px;
+    width: 30px;
+    
+}
+#menu-mobily li{
+    margin: 0%;
+  
+    align-items: center;
+   position: relative;
+
+   margin-top: 10px;
+    margin-left: 0%;
+    padding-bottom: 0%;
+    padding: 15%;
+    width: 90%;
+   
+     
+}
+#menu-mobily li:hover{
+    color:white;
+    background: #B20002;
+    width: 70%;
+    transition: 0.5s;
+}
+
+    .contacts-on-gmail button{
+    width: 170px;
+    
+}
+#inputs-block{
+   
+    width: 70%;
+    margin-right: 40px;
+}
+
+#close{
+
+    width: 95%;
+   
+    text-align: right;
+}
+.contacts-on-gmail{
+    width: 90%;
+}
+#about-block{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.about{
+   width: 40%;
+   margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+#cap-for-inp{
+    font-size: 32px;
+    margin-top: 5%;
+}
+#big-caption{
+    font-size: 42px;
+}
+#trans-bl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrap-block{
+    width: 100%;
+ 
+    margin: 0%;
+}
+.input-down:nth-child(2){
+margin-top: 20px;
+}
+#menu{
+width: 90%;
+
+}
+#logo-m{
+    position: relative;
+    left:20px;
+}
+#menu li{
+    display: none;
+
+}
+.menu-li{
+    display: none;
+}
+#burger-menu {
+height: 30px;
+display: flex;
+
+position: relative;
+
+}
+
+
+
+#menu p{
+   
+    width: auto;
+}
+#header-cap{
+    display: flex;
+flex-direction: column;
+
+width: 90%;
+}
+#header-cap .cap{
+    width:230px;
+}
+#rating{
+    width: 100%;
+    border: none;
+    padding: 0%;
+    margin-top: -15px;
+}
+#rating-cap{
+  font-size: 20px;
+}
+#fiveth-cont{
+    display: flex;
+    flex-direction: column;
+  
+}
+.price-block{
+    width: 60%;
+    margin-top: 20%;
+}
+#reviews-cont{
+    margin-top: 5%;
+}
+#logo-mobily-menu{
+    height: 80px;
+    margin-top: 30px;
+}
+}
+
+
+
+@media  screen and (max-width:600px ) {
+
+
+    #close{
+
+    width: 90%;
+    text-align: right;
+}
+    body{
+        left: 0%;
+        right: 0%;
+        
+    }
+	#s-block{
+  
+   margin-top: 0px;
+
+  
+}
+  #menu-mobily li:hover{
+    color:white;
+    background: #B20002;
+    width: 80%;
+    transition: 0.5s;
+}
+#big-background{
+    height: 200px;
+    margin-left: 30px;
+}
+#responsive-back{
+    height: 200px;
+    margin-top: -2px;
+}
+.icon-car{
+    width: 100%;
+ 
+}
+
+#big-caption{
+ text-align: center;
+    width: 280px;
+    line-height: 50px;
+   
+}
+#big-caption span{
+    font-size: 53px;
+}
+
+.contacts-on-gmail{
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.inp-block-regist{
+   padding:4% 4% 4%;
+   margin: 2%;
+   width: 92%;
+   margin-right: 0%;
+   margin-left: 0%;
+}
+.trans-inp{
+    width: 100%;
+  
+}
+
+.contacts-on-gmail button{
+    height: 130px;
+    width: 130px;
+}
+#inputs-block{
+    display: flex;
+    width: 100%;
+    margin-right: 0%;
+    margin-top: -30px;
+ 
+    flex-direction: column;
+}
+#cap-for-inp{
+    width: 100%;
+    align-items: center;
+}
+
+#block-width{
+    display: flex;
+    flex-direction: column;
+}
+#f-block{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#f-block img{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#f-block .cap{
+    margin-top: 20px;
+    width: 90%;
+    
+}
+#video-block{
+    display: none;
+}
+#s-block{
+    width: 90%;
+}
+#video-block-mobily{
+display: block;
+}
+#video-block-mobily video{
+    width: 100%;
+    height: 150px;
+}
+.about{
+    width: 80%;
+   padding: 0%;
+   margin:10% ;
+}
+.cap-about{
+    font-size: 25px;
+}
+#logo-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+#header-cap{
+    height: auto;
+    width: 80%;
+}
+#rating{
+    height: auto;
+}
+.just-p{
+   opacity: 0.7;
+   font-size: 16px;
+}
+.icon-car{
+    width: 100%;
+}
+
+
+#reviews-cont{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 0%;
+    margin-right: 0%;
+ 
+}
+.google-rev{
+    width: auto;
+      margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+font-size: 17px;
+height: auto;
+ padding: 5%;
+}
+.person{
+    height: 50px;
+    width:  50px;
+}
+.star{
+    height: 15px;
+}
+.google-rev p:first-child {
+    font-size: 20px;
+}
+.google-rev p:nth-child(2){
+    
+  width: 90%;
+  
+ 
+ 
+}
+.head-rev div{
+    margin-top: -10px;
+}
+.price-block{
+    width: 80%;
+    margin: 20%;
+    margin-top: 40px;
+}
+.cap{
+    font-size: 30px;
+    
+   
+  
+}
+#menu p{
+    font-size: 17px;
+ 
+}
+#footer-inside-mobily span img{
+    height: 25px;
+}
+@media screen and (max-width:420px){
+#menu-mobily{
+    width: 100%;
+}
+#menu-mobily li{
+    margin-top: 0%;
+    padding: 13%;
+}
+#menu-mobily span{
+width: 50%;
+}
+#logo-mobily{
+ 
+}
+}
+
+
+
+}
+
+@media  screen and (min-width: 1435px) {
+#footer-inside{
+    width: 60%;
+}
+
+
+
+#fiveth-cont{
+    width: 60%;
+}
+
+
+#fourth-block{
+    width: 60%;
+}
+
+#t-block-width{
+    width: 60%;
+}
+
+
+    #menu{
+        width: 60%;
+    }
+
+
+#block-width{
+    width: 60%;
+    margin-top: 10%;
+  
+}
+.contacts-on-gmail{
+    width: 60%;
+}
+#close{
+
+    width: 60%;
+   
+    text-align: right;
+}
+
+}
+
+@media  screen and (min-width: 1800px) {
+#footer-inside{
+    width: 55%;
+}
+
+
+
+#fiveth-cont{
+    width: 55%;
+}
+
+
+#fourth-block{
+    width: 55%;
+}
+
+#t-block-width{
+    width: 55%;
+}
+
+
+    #menu{
+        width:55%;
+    }
+
+
+#block-width{
+    width: 55%;
+  
+margin-top: 10%;
+  
+}
+.contacts-on-gmail{
+    width: 55%;
+    
+}
+#close{
+
+    width: 55%;
+   
+    text-align: right;
+}
+
+}
+
+@media  screen and (min-width: 1100px) {
+#footer-inside{
+    width: 75%;
+}
+
+#close{
+
+    width: 78%;
+   
+    text-align: right;
+}
+
+#fiveth-cont{
+    width: 75%;
+}
+
+
+#fourth-block{
+    width: 75%;
+}
+
+#t-block-width{
+    width: 75%;
+}
+
+
+    #menu{
+        width:70%;
+    }
+
+
+#block-width{
+  
+}
+.contacts-on-gmail{
+    width: 70%;
+    
+}
+
+
+}
+
+@media  screen and (min-width: 1800px) {
+#footer-inside{
+    width: 55%;
+}
+
+#close{
+
+    width: 60%;
+   
+    text-align: right;
+}
+
+#fiveth-cont{
+    width: 55%;
+}
+
+
+#fourth-block{
+    width: 55%;
+}
+
+#t-block-width{
+    width: 55%;
+}
+
+
+    #menu{
+        width:55%;
+    }
+
+
+#block-width{
+    width: 55%;
+  
+margin-top: 10%;
+  
+}
+.contacts-on-gmail{
+    width: 55%;
+    
+}
+
+
+}
+@media  screen and (min-width: 2300px) {
+#footer-inside{
+    width: 49%;
+}
+
+#close{
+
+    width: 54%;
+   
+    text-align: right;
+}
+
+#fiveth-cont{
+    width: 49%;
+}
+
+
+#fourth-block{
+    width: 49%;
+}
+
+#t-block-width{
+    width: 49%;
+}
+
+
+    #menu{
+        width:49%;
+    }
+
+
+#block-width{
+    width: 49%;
+  
+margin-top: 10%;
+  
+}
+.contacts-on-gmail{
+    width: 49%;
+    
+}
+
+
+}
+
+
+
+
+
+
+@media  screen and (min-width: 2500px) {
+#footer-inside{
+    width: 40%;
+}
+
+
+
+#fiveth-cont{
+    width: 40%;
+}
+
+
+#fourth-block{
+    width: 40%;
+}
+
+#t-block-width{
+    width: 40%;
+}
+
+
+    #menu{
+        width:40%;
+    }
+
+
+#block-width{
+    width:40%;
+  
+margin-top: 10%;
+  
+}
+
+#close{
+
+    width:45%;
+   
+    text-align: right;
+}
+.contacts-on-gmail{
+    width: 40%;
+    
+}
+
+
+}
+	 #t-top{
+	
+		 margin-top:-20px
+	 }
+
+
+   #close-btn-form{
+        height: 25px;
+        position: relative;
+       
+    }
+  
+
+      #window-stick{
+        height: 100%;
+        width: 100%;
+        background: rgba(229,229,229, 0.7);
+        display: none;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     position: fixed;
+     z-index: 20;
+     }
+
+     
+@media screen and (max-width:600px)  {
+   #two-mail-2{
+ margin-top: -600px;
+} 
+#two-mail button{
+    font-size: 30px;
+}
+}
